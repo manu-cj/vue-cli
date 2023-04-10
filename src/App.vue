@@ -1,14 +1,17 @@
 <template>
   <h1>Liste des inscrits</h1>
   <inscrits :liste="personnes"></inscrits>
+  <Users></Users>
 </template>
 
 <script>
 import Inscrits from "./components/Inscrits.vue";
+import Users from "@/components/Users";
 
 export default {
   name: "App",
   components: {
+    Users,
     Inscrits,
   },
   data() {
