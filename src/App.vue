@@ -1,18 +1,16 @@
 <template>
-  <h1>Liste des inscrits</h1>
-  <inscrits :liste="personnes"></inscrits>
-  <Users></Users>
+  <Road></Road>
 </template>
 
 <script>
-import Inscrits from "./components/Inscrits.vue";
-import Users from "@/components/Users";
+
+import Road from "@/components/Road";
 
 export default {
   name: "App",
   components: {
-    Users,
-    Inscrits,
+
+    Road,
   },
   data() {
     return {
